@@ -49,7 +49,7 @@ public class Calc extends HttpServlet {
 				second_try=0;	
 			}
 			
-			result=first_try+second_try;
+			result=2*(first_try+second_try);
 			request.setAttribute("result", result);
 		}
 		
