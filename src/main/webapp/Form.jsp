@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Form</title>
-    <link rel="stylesheet" href="/images/nicepage.css/" media="screen">
-    <link rel="stylesheet" href="/images/Form.css/" media="screen">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/images/nicepage.css" media="screen">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/images/Form.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.12.1, nicepage.com">
