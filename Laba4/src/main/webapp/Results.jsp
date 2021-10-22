@@ -4,14 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Результат вычисления</title>
+<title>Результат расчёта</title>
 </head>
 <body>
-<h1>Результат вычисления</h1>
-<h2>Ваши введеные данные:</h2>
-<p><strong>Сторона a:</strong> ${first_result}</p>
-<p><strong>Сторона b:</strong> ${second_result}</p>
-<p><strong>Периметр:</strong> ${result}</p>
+<h1>Результат расчёта</h1>
+<p><strong>Результат:</strong> ${result}</p>
+<h2>Введеные данные:</h2>
+<p><strong>Длина (a):</strong> ${first_result}</p>
+<p><strong>Высота (b):</strong> ${second_result}</p>
+
 
 <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">

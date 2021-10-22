@@ -4,16 +4,40 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Калькулятор - расчет периметра прямоугольника</title>
+<title>Калькулятор</title>
 </head>
 <body>
-<h1>Калькулятор - расчет периметра прямоугольника</h1>>
+<h1 align="center">Расчёт периметра прямоугольника</h1>
+<hr>
+    <p align="center">
+        <font size="5">Введите данные для расчёта:</font></p>
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <label for="first">Сторона а:</label>
+        <p align="center">
+        <label for="first">Длина (a):</label>
         <input type="text" name="first" id="first" value="${first}">
-        <label for="second">Сторона b: </label>
-        <input type="text" name="second" id="second" value="${second}">
-        <input type="submit" name="sign" value="Calculate">
-    </form>
-    </body>
+        </p>
+		<p align="center"></p>
+		<div align="center">
+        <dt></dt></dt><label for="second">Ширина (b): </label>
+		<input type="text" name="second" id="second" value="${second}">
+        </div>
+		<div align="center">
+        <dd>
+		<p align="center"></dd>
+        </div>
+		<div align="center">
+			<dd>
+			<p align="center"></dd>
+		</div>
+		<div align="center">
+        <dt></dt><input type="submit" name="sign" value="Calculate"></div>
+        </form>
+        </body>
+        <div style="border-style: solid; border-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px">
+        <p align="center"><font size="5">Формула для расчета </font> </p>
+<p align="center"><a href="https://ibb.co/5GzFnRY">
+<img src="https://i.ibb.co/4KDdYVs/23.jpg" alt="23" border="0" width="302" height="226"></a>
+</p>
+</div>
+
 </html>
