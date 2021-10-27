@@ -14,12 +14,12 @@
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <p align="center">
         <label for="first">Длина (a):</label>
-        <input type="text" name="first" id="first" value="${first}">
+        <input type="text" name="first" id="first" value="${first}" onkeyup="this.value = this.value.replace(/[^0-9\.\,]/g,'');">
         </p>
 		<p align="center"></p>
 		<div align="center">
         <dt></dt></dt><label for="second">Ширина (b): </label>
-		<input type="text" name="second" id="second" value="${second}">
+		<input type="text" name="second" id="second" value="${second}" onkeyup="this.value = this.value.replace(/[^0-9\.\,]/g,'');">
         </div>
 		<div align="center">
         <dd>
